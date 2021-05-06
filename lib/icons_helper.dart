@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 // Returns an icon named in name favoring Material
-IconData getIconByString({String name}) {
+IconData getIconByString(String name) {
   if (IconsMap[name] != null) {
     return IconsMap[name];
   } else {
