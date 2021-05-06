@@ -1,3 +1,3 @@
 # judo-icon-helper
 
-Get IconData by Icon name String.
+Get IconData by Icon name.
