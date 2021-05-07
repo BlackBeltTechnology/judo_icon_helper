@@ -7,8 +7,6 @@ dependencies:
   flutter:
     sdk: 'flutter'
   material_design_icons_flutter: ^4.0.5955
-  flutter_driver:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:
