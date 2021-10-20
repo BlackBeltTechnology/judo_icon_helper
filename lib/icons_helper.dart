@@ -5,7 +5,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 
 // Returns an icon named in name favoring Material
 IconData getIconByString(String name, { String fallbackIconName = 'texture' }) {
-  IconData result;
+  IconData? result;
 
   if (IconsMap[name] != null) {
     result = IconsMap[name];
@@ -14,7 +14,7 @@ IconData getIconByString(String name, { String fallbackIconName = 'texture' }) {
   }
 
   if (result == null) {
-    return MdiIcons.fromString(fallbackIconName);
+    return MdiIcons.fromString(fallbackIconName)!;
   }
 
   return result;
